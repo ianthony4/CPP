@@ -1,11 +1,19 @@
 #include <iostream>
 
+namespace primero{
+    int x = 1;
+}
+
+namespace segudno{
+    int x = 5;
+}
+
 int main(){
-    int entero = 2;
-    double doble = 3.2;
-    char caracter = 'A';
-    bool booleano = true;
-    std::string cadena = "Cadena de texto";
-    std::cout << entero << doble << caracter << booleano << cadena;
-    return  0;
+    using std::cout;
+    using std::cin;
+    using std::endl;
+    using std::string;
+    int x = 2;
+    cout << "X = " << x;   
+    return 0;
 }
