@@ -1,19 +1,14 @@
 #include <iostream>
+#include <vector>
 
-namespace primero{
-    int x = 1;
-}
-
-namespace segudno{
-    int x = 5;
-}
-
+//typedef std::vector<std::pair<std::string, int>> pair_list_t;
+using String = std::string;
+using entero = int;
 int main(){
-    using std::cout;
-    using std::cin;
     using std::endl;
-    using std::string;
-    int x = 2;
-    cout << "X = " << x;   
+    using std::cout;
+    entero x = 6;
+    String nombre = "Anthony Chaisa";
+    cout << "Nombre: " << nombre << endl << " edad : " << x << endl;    
     return 0;
 }
